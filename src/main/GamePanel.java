@@ -77,7 +77,7 @@ public class GamePanel extends JPanel implements Runnable {
     public EntityGenerator eGenerator = new EntityGenerator(this);
     public CutsceneManager csManager = new CutsceneManager(this);
 
-    // ARRAYLISTS AND ENTITY'S
+    // ARRAYLISTS AND Arrays
 
     public Entity[][] obj = new Entity[maxMap][20];
     public Entity[][] npc = new Entity[maxMap][10];
