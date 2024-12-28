@@ -14,7 +14,7 @@ public class Config {
 
         try {
 
-            // Find the file to write data on.
+            // Create the file to write on
             BufferedWriter bw = new BufferedWriter(new FileWriter("config.txt"));
 
             // Writes on if fullscreen is turned on.
